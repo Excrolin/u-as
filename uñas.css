@@ -1,0 +1,67 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe4e1; /* Rosado claro */
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://www.transparenttextures.com/patterns/paw-print.png');
+    color: #333;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #ff69b4; /* Rosado fuerte */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border: 2px solid #000; /* Negro */
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 0px #000;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 0px #000;
+}
+
+#horas-disponibles {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+#agendar-cita {
+    text-align: center;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff69b4; /* Rosado fuerte */
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000; /* Negro */
+    color: #ff69b4; /* Rosado fuerte */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff69b4; /* Rosado fuerte */
+    color: #000; /* Negro */
+}
